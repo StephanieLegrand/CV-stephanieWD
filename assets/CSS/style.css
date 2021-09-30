@@ -1,0 +1,61 @@
+@font-face {
+    font-family: "Allura";
+    src: url("../Fonts/Allura-Regular.ttf");
+}
+body{
+    font-family: "allura";
+    margin: 0%;
+}
+.button {
+    text-decoration: none;
+    color: black;
+}
+#navbar {
+    display:grid;
+    grid-template-columns: repeat(8,1fr); 
+    list-style-type: none;
+    font-size: 2em;
+    margin: 0%;
+    border-bottom: indigo 2px solid;
+    text-align: center;
+    vertical-align: middle;
+    background-color: hsla(0, 0%, 98%, 0.561);
+    position: relative;
+}
+
+#mobileNav{
+    display: none;
+}
+#profil{
+    grid-column: 4/5;
+}
+#exp {
+    grid-column: 5/6;
+}
+#comp {
+    grid-column: 6/7;
+}
+#loisir {
+    grid-column: 7/8;
+}
+#contact {
+    grid-column: 8/9;
+}
+#logo{
+    grid-column: 1/2;
+    width:30%;
+    text-align: center;
+}
+header {
+    height: 800px;
+    background: rgb(254,249,255);
+    background: linear-gradient(180deg, rgba(254,249,255,1) 0%, rgba(202,171,209,0.21330539051558128) 35%, rgba(254,249,255,1) 100%);
+    overflow: hidden;
+}
+#fontbanner {
+    position: absolute;
+    z-index: -5;
+    object-fit: cover;
+    overflow: hidden;
+    
+}
